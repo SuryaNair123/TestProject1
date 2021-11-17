@@ -13,6 +13,7 @@ public class SpringMain {
 		System.out.println(employeeService.getEmployee().getName());
 		System.out.println("Testing repo changes");
 		
+		System.out.println("Testing from local to commit changes to repo");
 		
 		employeeService.getEmployee().setName("suria");
 		
