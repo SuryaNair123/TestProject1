@@ -15,6 +15,8 @@ public class SpringMain {
 		
 		System.out.println("Testing from local to commit changes to repo");
 		
+		System.out.println("Testing  changes from local to conflict by su");
+		
 		employeeService.getEmployee().setName("suria");
 		
 		employeeService.getEmployee().throwException();
